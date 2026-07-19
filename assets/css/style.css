@@ -244,3 +244,15 @@ margin:8px 0;
 padding:12px;
 
 }
+
+#map {
+
+height:300px;
+
+width:100%;
+
+border-radius:15px;
+
+margin-top:15px;
+
+}

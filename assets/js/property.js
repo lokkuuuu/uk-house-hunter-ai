@@ -184,7 +184,10 @@ document.getElementById(
 "detailScore"
 ).innerHTML =
 "⭐ Score: " + property.score;
-
+loadMap(
+52.003,
+-0.744
+);
 
 
 document.getElementById(
