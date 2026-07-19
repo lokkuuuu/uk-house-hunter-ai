@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UK House Hunter AI</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body>
+
+
+<div class="app">
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <h1>
+            🏠 House Hunter AI
+        </h1>
+
+
+        <nav>
+
+            <a class="active">
+                Dashboard
+            </a>
+
+            <a>
+                Properties
+            </a>
+
+            <a>
+                Compare
+            </a>
+
+            <a>
+                AI Assistant
+            </a>
+
+            <a>
+                Mortgage
+            </a>
+
+            <a>
+                Settings
+            </a>
+
+        </nav>
+
+
+    </aside>
+
+
+
+
+
+    <!-- Main Content -->
+    <main class="content">
+
+
+        <header>
+
+            <h2>
+                Dashboard
+            </h2>
+
+        <button id="addPropertyBtn">
+            + Add Property
+        </button>
+
+        </header>
+
+
+
+
+        <!-- Search Box -->
+
+        <section class="search-box">
+
+            <h3>
+                Analyse Property
+            </h3>
+
+
+            <input 
+            type="text"
+            placeholder="Paste Rightmove / Zoopla URL">
+
+
+            <button>
+                Analyse
+            </button>
+
+
+        </section>
+
+
+
+
+
+        <!-- Stats -->
+
+        <section class="cards">
+
+
+            <div class="card">
+
+                <h4>
+                    Saved Properties
+                </h4>
+
+                <p>
+                    0
+                </p>
+
+            </div>
+
+
+
+            <div class="card">
+
+                <h4>
+                    Average Price
+                </h4>
+
+                <p>
+                    £0
+                </p>
+
+            </div>
+
+
+
+
+            <div class="card">
+
+                <h4>
+                    Average Score
+                </h4>
+
+                <p>
+                    0/100
+                </p>
+
+            </div>
+
+
+
+
+            <div class="card">
+
+                <h4>
+                    Avg Commute
+                </h4>
+
+                <p>
+                    0 mins
+                </p>
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+        <!-- Properties -->
+
+        <section>
+
+
+            <h3>
+                Saved Properties
+            </h3>
+
+
+            <div class="property-list">
+
+
+                <div class="property-card">
+
+                    <h4>
+                        Example Property
+                    </h4>
+
+
+                    <p>
+                        Milton Keynes
+                    </p>
+
+
+                    <p>
+                        £450,000
+                    </p>
+
+
+                    <span>
+                        Score 85/100
+                    </span>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+    </main>
+
+
+</div>
+
+
+<div class="modal" id="propertyModal">
+
+
+<div class="modal-content">
+
+<h2>
+Add Property
+</h2>
+
+
+<input id="propertyName" placeholder="Property Name">
+
+
+<input id="propertyLocation" placeholder="Location">
+
+
+<input id="propertyPrice" placeholder="Price">
+
+
+<input id="propertyBedrooms" placeholder="Bedrooms">
+
+
+<input id="propertySize" placeholder="Floor Area sqm">
+
+
+<input id="propertyScore" placeholder="AI Score">
+
+
+<button id="savePropertyBtn">
+Save Property
+</button>
+
+
+<button id="closeModalBtn">
+Cancel
+</button>
+
+
+</div>
+
+
+</div>
+<script src="assets/js/app.js"></script>
+
+
+</body>
+
+
+</html>
