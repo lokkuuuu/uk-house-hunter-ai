@@ -1,0 +1,73 @@
+{
+  "id": "",
+  "name": "",
+  "url": "",
+
+  "basic": {
+    "price": 0,
+    "location": "",
+    "postcode": "",
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "floorArea": 0,
+    "propertyType": "",
+    "tenure": "",
+    "epc": ""
+  },
+
+
+  "location": {
+
+    "latitude": 0,
+    "longitude": 0,
+
+    "nearestStation": "",
+    "stationDistance": 0,
+    "walkingTime": 0
+
+  },
+
+
+  "transport": {
+
+    "southwark": {
+      "time": "",
+      "cost": "",
+      "changes": 0
+    }
+
+  },
+
+
+  "area": {
+
+    "crimeScore": 0,
+    "floodRisk": "",
+    "noiseLevel": "",
+    "airQuality": ""
+
+  },
+
+
+  "investment": {
+
+    "pricePerSqm": 0,
+    "growthScore": 0,
+    "rentalYield": 0,
+    "futurePotential": ""
+
+  },
+
+
+  "analysis": {
+
+    "aiScore": 0,
+    "pros": [],
+    "cons": []
+
+  },
+
+
+  "notes": ""
+
+}

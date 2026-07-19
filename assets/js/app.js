@@ -43,10 +43,32 @@ saveBtn.onclick = () => {
 let property = {
 
 
+id:
+Date.now(),
+
+
 name:
 document.getElementById(
 "propertyName"
 ).value,
+
+
+url:
+document.getElementById(
+"propertyURL"
+).value,
+
+
+
+basic:{
+
+
+price:
+Number(
+document.getElementById(
+"propertyPrice"
+).value
+),
 
 
 location:
@@ -55,28 +77,65 @@ document.getElementById(
 ).value,
 
 
-price:
+postcode:
 document.getElementById(
-"propertyPrice"
+"propertyPostcode"
 ).value,
 
 
-bedrooms:
+epc:
 document.getElementById(
-"propertyBedrooms"
+"propertyEPC"
 ).value,
 
 
-size:
+tenure:
 document.getElementById(
-"propertySize"
+"propertyTenure"
+).value
+
+},
+
+
+
+transport:{
+
+
+station:
+document.getElementById(
+"propertyStation"
 ).value,
 
 
-score:
+distance:
+document.getElementById(
+"propertyDistance"
+).value
+
+
+},
+
+
+
+analysis:{
+
+
+aiScore:
+Number(
 document.getElementById(
 "propertyScore"
 ).value
+),
+
+
+pros:[],
+
+
+cons:[]
+
+}
+
+
 
 
 };
